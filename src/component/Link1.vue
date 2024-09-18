@@ -10,10 +10,12 @@
         تست میکرو فرانت اند گرافیکالی
       </div>
     </div>
+    <page-footer></page-footer>
   </template>
   <script>
+  import { PageFooter } from "@vue-mf/footer";
   export default {
-   
+    components: { PageFooter },
   };
   </script>
   <style scoped>
